@@ -48,7 +48,7 @@
     #hero { position: relative; min-height: 100svh; display: flex; align-items: center; justify-content: center; overflow: hidden; padding: 0; }
     .hero-bg-dummy {
       position: absolute; inset: 0;
-      background: url('images/ika14.jpeg') center/cover no-repeat;
+      background: url('ika14.jpg') center/cover no-repeat;
       filter: brightness(0.28);
     }
     .hero-bg-overlay {
@@ -145,7 +145,7 @@
     }
 
     /* 蓄光画像
-       差し替えポイント: src="images/chikko.jpg" → 別ファイル名の場合は変更 */
+       差し替えポイント: src="chikko.jpg" → 別ファイル名の場合は変更 */
     .glow-image-wrap {
       width: 100%;
       max-width: 520px;
@@ -328,7 +328,7 @@
     /* FOOTER */
     footer { background:var(--black); border-top:1px solid rgba(255,255,255,0.06); padding:60px 24px 40px; }
     .footer-profile { display:flex; flex-direction:column; align-items:center; text-align:center; margin-bottom:40px; }
-    .profile-avatar { width:80px; height:80px; border-radius:50%; background:var(--dark3); border:2px solid var(--gold); display:flex; align-items:center; justify-content:center; font-size:32px; margin-bottom:16px; overflow:hidden; /* 差し替えポイント: <img src="images/profile.jpg"> */ }
+    .profile-avatar { width:80px; height:80px; border-radius:50%; background:var(--dark3); border:2px solid var(--gold); display:flex; align-items:center; justify-content:center; font-size:32px; margin-bottom:16px; overflow:hidden; /* 差し替えポイント: <img src="profile.jpg"> */ }
     .profile-name { font-size:20px; font-weight:700; margin-bottom:4px; }
     .profile-name span { color:var(--gold); }
     .profile-title { font-family:var(--font-en); font-size:11px; color:var(--gray); letter-spacing:0.2em; margin-bottom:16px; }
@@ -492,10 +492,10 @@
       <span class="section-label">Hooking Theory</span>
       <h2 class="section-title">なぜバレるのか。<br><span>フッキングの真実。</span></h2>
     </div>
-    <!-- 差し替えポイント: src="images/fukking.jpg" → 別ファイル名の場合は変更 -->
+    <!-- 差し替えポイント: src="fukking.jpg" → 別ファイル名の場合は変更 -->
     <div class="hooking-image-wrap fade-in fade-in-delay-1">
       <span class="hooking-badge">実際のフッキング</span>
-      <img src="images/fukking.jpg" alt="アオリイカのフッキング実例 - 触腕に掛かった瞬間" loading="lazy" />
+      <img src="fukking.jpg" alt="アオリイカのフッキング実例 - 触腕に掛かった瞬間" loading="lazy" />
     </div>
     <div class="fade-in fade-in-delay-2" style="text-align:center;margin-bottom:8px;">
       <p style="font-size:clamp(13px,3.5vw,14px);color:var(--gray);font-style:italic;">↑ アオリイカが細い触腕でカンナを抱いている瞬間</p>
@@ -532,7 +532,7 @@
 
 <!-- ③.51 慣性モーメント理論 -->
 <section class="lp-section">
-  <img src="images/inertia-theory.jpg" class="lp-image" alt="">
+  <img src="inertia-theory.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:20px auto 0; display:flex; flex-direction:column; gap:12px;">
     <div class="hooking-card fade-in">
       <span class="hooking-card-icon">🔄</span>
@@ -556,12 +556,12 @@
 
 <!-- ③.55 エサは無駄にしない -->
 <section class="lp-section">
-  <img src="images/reuse-bait-system.jpg" class="lp-image" alt="エサを無駄にしない仕組み">
+  <img src="reuse-bait-system.jpg" class="lp-image" alt="エサを無駄にしない仕組み">
 </section>
 
 <!-- ③.6 軽すぎてもダメ -->
 <section class="lp-section">
-  <img src="images/light-problem.jpg" class="lp-image" alt="">
+  <img src="light-problem.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:20px auto 0;">
     <div class="hooking-card fade-in">
       <span class="hooking-card-icon">⚖️</span>
@@ -575,7 +575,7 @@
 
 <!-- ③.7 重量メリット -->
 <section class="lp-section">
-  <img src="images/kanna-comparison.jpg" class="lp-image" alt="">
+  <img src="kanna-comparison.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:20px auto 0;">
     <div class="hooking-card fade-in">
       <span class="hooking-card-icon">🐟</span>
@@ -589,7 +589,7 @@
 
 <!-- ③.8 フトコロ設計 -->
 <section class="lp-section">
-  <img src="images/futokoro.jpg" class="lp-image" alt="">
+  <img src="futokoro.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:20px auto 0; display:flex; flex-direction:column; gap:12px;">
     <div class="hooking-card fade-in">
       <span class="hooking-card-icon">🎣</span>
@@ -620,7 +620,7 @@
 
 <!-- ③.9 セットアップ・シンプルイズベスト -->
 <section class="lp-section">
-  <img src="images/setup-example.jpg" class="lp-image" alt="">
+  <img src="setup-example.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:20px auto 0; display:flex; flex-direction:column; gap:12px;">
     <div class="hooking-card fade-in">
       <span class="hooking-card-icon">🎣</span>
@@ -647,7 +647,7 @@
   ================================================================
   差し替えポイント：蓄光画像
   images/chikko.jpg をこのファイルと同じフォルダの images/ に置いてください。
-  別ファイル名の場合は src="images/chikko.jpg" の部分を変更してください。
+  別ファイル名の場合は src="chikko.jpg" の部分を変更してください。
   ================================================================
 -->
 <section id="glow">
@@ -661,9 +661,9 @@
       <p class="glow-subheading">暗い海中でも存在感を放つ、夜釣り専用の仕上げ</p>
     </div>
 
-    <!-- 蓄光画像（差し替えポイント: src="images/chikko.jpg"） -->
+    <!-- 蓄光画像（差し替えポイント: src="chikko.jpg"） -->
     <div class="glow-image-wrap fade-in fade-in-delay-1">
-      <img src="images/chikko.jpg" alt="蓄光仕様のカンナ - ライトを当てると発光" loading="lazy" />
+      <img src="chikko.jpg" alt="蓄光仕様のカンナ - ライトを当てると発光" loading="lazy" />
     </div>
 
     <div class="glow-points">
@@ -690,16 +690,6 @@
       </div>
     </div>
 
-    <div class="glow-btn-wrap fade-in">
-      <!-- 差し替えポイント: href="https://store.shopping.yahoo.co.jp/..." に変更 -->
-      <a href="https://shopping.yahoo.co.jp/" target="_blank" rel="noopener" class="btn-glow-yahoo">
-        <span style="font-size:22px;">🛒</span> ヤフーショッピングで見る
-      </a>
-      <!-- 差し替えポイント: href="https://jp.mercari.com/item/..." に変更 -->
-      <a href="https://jp.mercari.com/" target="_blank" rel="noopener" class="btn-glow-mercari">
-        <span style="font-size:22px;">🏪</span> メルカリで見る
-      </a>
-    </div>
 
   </div>
 </section>
@@ -707,7 +697,7 @@
 <!-- ④.4 再利用型ベイトシステム -->
 <section class="lp-section">
   <h2 class="lp-title">再利用型ベイトシステム</h2>
-  <img src="images/bbproblem.jpg" class="lp-image" alt="">
+  <img src="bbproblem.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:20px auto 0; display:flex; flex-direction:column; gap:12px;">
     <div class="hooking-card fade-in">
       <span class="hooking-card-icon">🐟</span>
@@ -735,7 +725,7 @@
 
 <!-- ④.4.5 汎用性 -->
 <section class="lp-section">
-  <img src="images/multi-target.jpg" class="lp-image" alt="">
+  <img src="multi-target.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:20px auto 0; display:flex; flex-direction:column; gap:12px;">
     <div class="hooking-card fade-in">
       <span class="hooking-card-icon">🐟</span>
@@ -749,7 +739,7 @@
 
 <!-- ④.5 ラインナップ -->
 <section class="lp-section">
-  <img src="images/lineup.jpg" class="lp-image" alt="">
+  <img src="lineup.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:20px auto 0; display:flex; flex-direction:column; gap:12px;">
     <div class="hooking-card fade-in">
       <span class="hooking-card-icon">🪝</span>
@@ -836,7 +826,7 @@
       <h2 class="section-title">自作カンナ<span>について</span></h2>
     </div>
     <div class="product-image-main fade-in">
-      <img src="images/kan2.JPG" alt="だいちゃんの自作カンナ — 正面写真">
+      <img src="kan2.jpg" alt="だいちゃんの自作カンナ — 正面写真">
     </div>
     <div class="product-features">
       <div class="feature-card fade-in fade-in-delay-1">
@@ -856,7 +846,7 @@
       <div class="feature-card fade-in fade-in-delay-3">
         <div class="feature-icon-wrap">🌊</div>
         <div class="feature-body">
-          <h3>実釣100日超のフィードバック</h3>
+          <h3>実釣1000日超のフィードバック</h3>
           <p>机上の設計じゃない。実際に堤防で使って、バラして、形を変えて、また使って——を繰り返してできた形。季節・水深・潮の動きを含めたうえでのチューニング。</p>
         </div>
       </div>
@@ -869,10 +859,10 @@
       </div>
     </div>
     <div class="product-sub-images fade-in">
-      <div class="product-sub-img"><img src="images/kan3.JPG" alt="カンナ詳細"></div>
-      <div class="product-sub-img"><img src="images/kan4.JPG" alt="カンナ詳細"></div>
-      <div class="product-sub-img"><img src="images/kan1.JPG" alt="ハンドメイド制作"></div>
-      <div class="product-sub-img"><img src="images/kan2.JPG" alt="カンナ全体"></div>
+      <div class="product-sub-img"><img src="kan3.jpg" alt="カンナ詳細"></div>
+      <div class="product-sub-img"><img src="kan4.jpg" alt="カンナ詳細"></div>
+      <div class="product-sub-img"><img src="kan1.jpg" alt="ハンドメイド制作"></div>
+      <div class="product-sub-img"><img src="kan2.jpg" alt="カンナ全体"></div>
     </div>
   </div>
 </section>
@@ -886,10 +876,10 @@
     </div>
     <div class="slider-wrap fade-in">
       <div class="slider-track" id="sliderTrack">
-        <div class="slide-item"><img src="images/ika2.jpg" alt="釣果"><span class="slide-caption">アオリイカ 3杯 — 伊豆の堤防</span></div>
-        <div class="slide-item"><img src="images/ika8.jpg" alt="釣果"><span class="slide-caption">良型アオリイカ — ウキ釣りにて</span></div>
-        <div class="slide-item"><img src="images/ika4.jpg" alt="釣果"><span class="slide-caption">夜の堤防 — 複数キャッチ</span></div>
-        <div class="slide-item"><img src="images/ika15.jpeg" alt="釣果"><span class="slide-caption">アジ＋アオリイカ — ウキ釣りセット</span></div>
+        <div class="slide-item"><img src="ika2.jpg" alt="釣果"><span class="slide-caption">アオリイカ 3杯 — 伊豆の堤防</span></div>
+        <div class="slide-item"><img src="ika8.jpg" alt="釣果"><span class="slide-caption">良型アオリイカ — ウキ釣りにて</span></div>
+        <div class="slide-item"><img src="ika4.jpg" alt="釣果"><span class="slide-caption">夜の堤防 — 複数キャッチ</span></div>
+        <div class="slide-item"><img src="ika15.jpg" alt="釣果"><span class="slide-caption">アジ＋アオリイカ — ウキ釣りセット</span></div>
       </div>
       <div class="slider-dots" id="sliderDots"></div>
     </div>
@@ -911,7 +901,7 @@
     </div>
     <!-- 大漁証拠写真 -->
     <div class="fade-in" style="margin-bottom:32px; border-radius:8px; overflow:hidden; position:relative;">
-      <img src="images/ika6.jpg" alt="大漁の証拠" style="width:100%; height:auto; display:block; max-height:400px; object-fit:cover;">
+      <img src="ika6.jpg" alt="大漁の証拠" style="width:100%; height:auto; display:block; max-height:400px; object-fit:cover;">
       <div style="position:absolute; bottom:0; left:0; right:0; padding:16px 20px; background:linear-gradient(to top,rgba(0,0,0,0.8),transparent);">
         <p style="font-family:var(--font-en); font-size:11px; letter-spacing:0.3em; color:var(--gold); margin-bottom:4px;">PROOF OF CATCH</p>
         <p style="font-size:14px; font-weight:700; color:var(--white);">クーラー満タン。これが伊豆のウキ釣りの実力。</p>
@@ -928,7 +918,7 @@
 
 <!-- ⑥.5 eat訴求 -->
 <section id="eat-cta" class="lp-section" style="margin:0; padding:80px 20px; background:#0d0d0d;">
-  <img src="images/eat.jpg" class="lp-image" alt="">
+  <img src="eat.jpg" class="lp-image" alt="">
   <div style="max-width:560px; margin:32px auto 0; text-align:center;">
     <p style="font-size:clamp(11px,3vw,13px); letter-spacing:0.3em; color:var(--gold); font-weight:700; text-transform:uppercase; margin-bottom:16px;">Fishing Privilege</p>
     <h2 style="font-size:clamp(24px,7vw,36px); font-weight:900; line-height:1.4; margin-bottom:20px;">
@@ -978,7 +968,7 @@
 <footer>
   <div class="container">
     <div class="footer-profile">
-      <div class="profile-avatar"><img src="images/ika17.jpeg" alt="だいちゃん" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
+      <div class="profile-avatar"><img src="ika17.jpg" alt="だいちゃん" style="width:100%;height:100%;object-fit:cover;object-position:center top;"></div>
       <p class="profile-name"><span>だいちゃん</span></p>
       <p class="profile-title">AORIIKA FLOAT FISHING SPECIALIST</p>
       <p class="profile-bio">伊豆の堤防を拠点に、釣り歴40年。今は釣具屋をやりながら現場に立ち続けている。バレる悔しさに向き合い続けて、たどり着いたのが自作カンナ。失敗も含めてリアルな釣りをSNSで発信中。</p>
